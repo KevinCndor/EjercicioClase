@@ -27,7 +27,7 @@ def step_impl(context):
     raise NotImplementedError(u'STEP: Entonces apruebo al estudiante si la calificacion es mayor o igual a 7')
 
 
-@step("si no cumple este minimo, repruebo al estudiante")
+@step("si no cumple este minimo, repruebo al estudiante")
 def step_impl(context):
     """
     :type context: behave.runner.Context

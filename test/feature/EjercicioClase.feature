@@ -10,4 +10,4 @@ Característica: : Calificar trabajo final de verificacion y validacion
     Dado que un alumno ha entregado su trabajo final a tiempo
     Cuando el profesor asigna una calificacion sobre 10 basado en una rúbrica
     Entonces apruebo al estudiante si la calificacion es mayor o igual a 7
-    Pero si no cumple este minimo, repruebo al estudiante
+    Pero si no cumple este minimo, repruebo al estudiante
