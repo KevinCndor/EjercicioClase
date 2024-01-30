@@ -25,4 +25,4 @@ def step_impl(context, nota_trabajo, nota_maxima):
 @step("el estudiante obtendra (?P<estado_alumno>.+) de acuerdo a la nota de aprobacion")
 def step_impl(context, estado_alumno):
     context.profesor.aprobar_alumno(estado_alumno, context.alumno)
-    assert (context.alumno.aprueba == True)
+    assert (context.alumno.aprueba == estado_alumno)

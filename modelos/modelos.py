@@ -23,7 +23,4 @@ class Profesor:
         actividad_final.calificacion = nota_trabajo
 
     def aprobar_alumno(self, estado_alumno, alumno):
-        if estado_alumno == "Aprobado":
-            alumno.aprueba = True
-        else:
-            alumno.aprueba = False
+        alumno.aprueba = estado_alumno
